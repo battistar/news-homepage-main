@@ -13,7 +13,7 @@
   <body>
     <header>
       <img class="header__logo" src="./assets/images/logo.svg" alt="logo" />
-      <button class="header__menu-button">
+      <button class="header__menu-button" onclick="toggleMenu()">
         <img src="./assets/images/icon-menu.svg" alt="menu" />
       </button>
     </header>
@@ -74,6 +74,25 @@
           </div>
         </div>
       </div>
+
+      <div id="menu-background" class="mobile-menu__background">
+        <nav id="menu" class="mobile-menu">
+          <div class="mobile-menu__right">
+            <button class="mobile-menu__close-button" onclick="toggleMenu()">
+              <img src="./assets/images/icon-menu-close.svg" alt="menu-close" />
+            </button>
+            <ul>
+              <li><a class="mobile-menu_item" href="#">Home</a></li>
+              <li><a class="mobile-menu_item" href="#">New</a></li>
+              <li><a class="mobile-menu_item" href="#">Popular</a></li>
+              <li><a class="mobile-menu_item" href="#">Trending</a></li>
+              <li><a class="mobile-menu_item" href="#">Categories</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </main>
+
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>

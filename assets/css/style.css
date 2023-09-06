@@ -60,6 +60,10 @@ a:visited {
   text-decoration: none;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .header__logo {
   height: 30px;
 }
@@ -178,4 +182,58 @@ a:visited {
 .bottom-article-list__text {
   color: hsl(236, 13%, 42%);
   line-height: 1.8rem;
+}
+
+.mobile-menu {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: end;
+  transition: 0.4s;
+}
+
+.mobile-menu__background {
+  background-color: hsla(240, 100%, 5%, 0);
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  transition: background-color 0.4s;
+}
+
+.mobile-menu__right {
+  background-color: hsl(36, 100%, 99%);
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.mobile-menu__close-button {
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+.mobile-menu__close-button:hover {
+  opacity: 0.7;
+}
+
+.mobile-menu_item {
+  display: block;
+  color: hsl(240, 100%, 5%);
+  margin-bottom: 20px;
+}
+
+.mobile-menu_item:active {
+  color: hsl(5, 85%, 63%);
 }
