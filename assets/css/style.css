@@ -142,7 +142,7 @@ a:visited {
 }
 
 .bottom-article-list {
-  margin-top: 60px;
+  margin: 60px 0px;
   display: flex;
   flex-direction: column;
   gap: 40px;
