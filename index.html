@@ -16,77 +16,84 @@
       <button class="header__menu-button" onclick="toggleMenu()">
         <img src="./assets/images/icon-menu.svg" alt="menu" />
       </button>
+      <nav class="desktop-menu">
+        <a class="desktop-menu__item" href="#">Home</a>
+        <a class="desktop-menu__item" href="#">New</a>
+        <a class="desktop-menu__item" href="#">Popular</a>
+        <a class="desktop-menu__item" href="#">Trending</a>
+        <a class="desktop-menu__item" href="#">Categories</a>
+      </nav>
     </header>
     <main>
-      <div class="main-article">
-        <img src="assets/images/image-web-3-mobile.jpg" alt="image-web-3" />
-        <h1 class="main-article__title">The Bright Future of Web 3.0?</h1>
-        <p class="main-article__subtitle">
-          We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
-          of the people. But is it really fulfilling its promise?
-        </p>
-        <button class="main-article__button">Read more</button>
-      </div>
+      <img class="main-article-image" alt="image-web-3" />
+      <h1 class="main-article-title">The Bright Future of Web 3.0?</h1>
+      <p class="main-article-subtitle">
+        We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of
+        the people. But is it really fulfilling its promise?
+      </p>
+      <button class="main-article-button">Read more</button>
+
       <div class="right-article-list">
         <h1 class="right-article-list__title">New</h1>
-        <div class="right-article-list__item">
-          <a href="#" class="right-article-list__item__title">Hydrogen VS Electric Cars</a>
-          <p class="right-article-list__item__subtitle">Will hydrogen-fueled cars ever catch up to EVs?</p>
-        </div>
-        <hr class="right-article-list__divider" />
-        <div class="right-article-list__item">
-          <a href="#" class="right-article-list__item__title">The Downsides of AI Artistry</a>
-          <p class="right-article-list__item__subtitle">
-            What are the possible adverse effects of on-demand AI image generation?
-          </p>
-        </div>
-        <hr class="right-article-list__divider" />
-        <div class="right-article-list__item">
-          <a href="#" class="right-article-list__item__title">Is VC Funding Drying Up?</a>
-          <p class="right-article-list__item__subtitle">
-            Private funding by VC firms is down 50% YOY. We take a look at what that means.
-          </p>
+        <div class="right-article-list__container">
+          <div class="right-article-list__item">
+            <a href="#" class="right-article-list__item__title">Hydrogen VS Electric Cars</a>
+            <p class="right-article-list__item__subtitle">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <hr class="right-article-list__divider" />
+          <div class="right-article-list__item">
+            <a href="#" class="right-article-list__item__title">The Downsides of AI Artistry</a>
+            <p class="right-article-list__item__subtitle">
+              What are the possible adverse effects of on-demand AI image generation?
+            </p>
+          </div>
+          <hr class="right-article-list__divider" />
+          <div class="right-article-list__item">
+            <a href="#" class="right-article-list__item__title">Is VC Funding Drying Up?</a>
+            <p class="right-article-list__item__subtitle">
+              Private funding by VC firms is down 50% YOY. We take a look at what that means.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="bottom-article-list">
-        <div class="bottom-article-list__item">
-          <img class="bottom-article-list__image" src="./assets/images/image-retro-pcs.jpg" alt="retro-pcs" />
-          <div>
-            <h1 class="bottom-article-list__number">01</h1>
-            <a href="#" class="bottom-article-list__title">Reviving Retro PCs</a>
-            <p class="bottom-article-list__text">What happens when old PCs are given modern upgrades?</p>
-          </div>
+
+      <div class="bottom-article-item">
+        <img class="bottom-article-item__image" src="./assets/images/image-retro-pcs.jpg" alt="retro-pcs" />
+        <div>
+          <h1 class="bottom-article-item__number">01</h1>
+          <a href="#" class="bottom-article-item__title">Reviving Retro PCs</a>
+          <p class="bottom-article-item__text">What happens when old PCs are given modern upgrades?</p>
         </div>
-        <div class="bottom-article-list__item">
-          <img class="bottom-article-list__image" src="./assets/images/image-top-laptops.jpg" alt="top-laptops" />
-          <div>
-            <h1 class="bottom-article-list__number">02</h1>
-            <a href="#" class="bottom-article-list__title">Top 10 Laptops of 2022</a>
-            <p class="bottom-article-list__text">Our best picks for various needs and budgets.</p>
-          </div>
+      </div>
+      <div class="bottom-article-item">
+        <img class="bottom-article-item__image" src="./assets/images/image-top-laptops.jpg" alt="top-laptops" />
+        <div>
+          <h1 class="bottom-article-item__number">02</h1>
+          <a href="#" class="bottom-article-item__title">Top 10 Laptops of 2022</a>
+          <p class="bottom-article-item__text">Our best picks for various needs and budgets.</p>
         </div>
-        <div class="bottom-article-list__item">
-          <img class="bottom-article-list__image" src="./assets/images/image-gaming-growth.jpg" alt="gaming-growth" />
-          <div>
-            <h1 class="bottom-article-list__number">03</h1>
-            <a href="#" class="bottom-article-list__title">The Growth of Gaming</a>
-            <p class="bottom-article-list__text">How the pandemic has sparked fresh opportunities.</p>
-          </div>
+      </div>
+      <div class="bottom-article-item">
+        <img class="bottom-article-item__image" src="./assets/images/image-gaming-growth.jpg" alt="gaming-growth" />
+        <div>
+          <h1 class="bottom-article-item__number">03</h1>
+          <a href="#" class="bottom-article-item__title">The Growth of Gaming</a>
+          <p class="bottom-article-item__text">How the pandemic has sparked fresh opportunities.</p>
         </div>
       </div>
 
       <div id="menu-background" class="mobile-menu__background">
         <nav id="menu" class="mobile-menu">
-          <div class="mobile-menu__right">
+          <div class="mobile-menu__list">
             <button class="mobile-menu__close-button" onclick="toggleMenu()">
               <img src="./assets/images/icon-menu-close.svg" alt="menu-close" />
             </button>
             <ul>
-              <li><a class="mobile-menu_item" href="#">Home</a></li>
-              <li><a class="mobile-menu_item" href="#">New</a></li>
-              <li><a class="mobile-menu_item" href="#">Popular</a></li>
-              <li><a class="mobile-menu_item" href="#">Trending</a></li>
-              <li><a class="mobile-menu_item" href="#">Categories</a></li>
+              <li><a class="mobile-menu__item" href="#">Home</a></li>
+              <li><a class="mobile-menu__item" href="#">New</a></li>
+              <li><a class="mobile-menu__item" href="#">Popular</a></li>
+              <li><a class="mobile-menu__item" href="#">Trending</a></li>
+              <li><a class="mobile-menu__item" href="#">Categories</a></li>
             </ul>
           </div>
         </nav>
